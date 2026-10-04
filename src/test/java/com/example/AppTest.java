@@ -2,8 +2,8 @@ package com.example;
 
 public class AppTest {
     @org.junit.Test
-    public static void testApp() {
-        // A simple placeholder test that always passes
+    public void testApp() {
+        // Removed 'static' so the JUnit engine can execute it smoothly
         assert(true);
     }
 }
